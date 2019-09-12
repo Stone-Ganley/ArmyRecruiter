@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp"
+    android:paddingTop="16dp"
+    >
+<TableRow>
+    <TextView
+        android:text="@string/zip_code_prompt"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/textSize"
+        android:textAlignment="textEnd"
+        android:textColor="@color/textColor"
+        />
+
+    <EditText
+        android:id="@+id/zipCode"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/textSize"
+        android:inputType="number"
+        android:textColor="@color/textColor"
+        />
+
+</TableRow>
+
+    <TableRow
+        android:paddingTop="16dp"
+        >
+
+        <TextView
+            android:text="@string/information_textview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:textAlignment="textEnd"
+            />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="16dp"
+        >
+
+        <Button
+            android:id="@+id/findRec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/find_recruiter_button"
+            android:layout_column="1"
+            android:textColor="@color/textColor"
+            />
+
+    </TableRow>
+
+</TableLayout>

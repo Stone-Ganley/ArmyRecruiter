@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+     >
+
+    <TableRow
+        >
+
+        <TextView
+            android:text="@string/gender_prompt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:textAlignment="textEnd"
+            />
+
+        <Spinner
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="5dp"
+        >
+
+        <TextView
+            android:text="@string/age_prompt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:textAlignment="textEnd"
+            />
+
+        <Spinner
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="5dp"
+        >
+
+        <TextView
+            android:text="@string/raw_scores"
+            android:layout_span="3"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:textAlignment="textEnd"
+            />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="5dp"
+        >
+
+    <TextView
+        android:text="@string/push_ups_prompt"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/textColor"
+        android:textAlignment="textEnd"
+        />
+
+    <EditText
+        android:id="@+id/pushUps"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/textSize"
+        android:inputType="number"
+        android:textColor="@color/textColor"
+        />
+
+        <TextView
+            android:id="@+id/PushUpScore"
+            android:layout_height="match_parent"
+            android:layout_width="30dp"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:textAlignment="textEnd"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="5dp"
+        >
+
+        <TextView
+            android:text="@string/sit_ups_prompt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:textAlignment="textEnd"
+            />
+
+        <EditText
+            android:id="@+id/sitUps"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/textSize"
+            android:inputType="number"
+            android:textColor="@color/textColor"
+            />
+
+        <TextView
+            android:id="@+id/SitUpScore"
+            android:layout_height="match_parent"
+            android:layout_width="30dp"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:textAlignment="textEnd"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="5dp"
+        >
+
+        <TextView
+            android:text="@string/_2_mile_run_prompt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:textAlignment="textEnd"
+            />
+
+        <EditText
+            android:id="@+id/runTime"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/textSize"
+            android:inputType="number"
+            android:textColor="@color/textColor"
+            />
+
+        <TextView
+            android:id="@+id/RunScore"
+            android:layout_height="match_parent"
+            android:layout_width="30dp"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:textAlignment="textEnd"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="5dp"
+        >
+
+        <TextView
+            android:text="@string/pass_fail_prompt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:textAlignment="textEnd"
+            />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            />
+
+        <TextView
+            android:id="@+id/passfail"
+            android:layout_height="match_parent"
+            android:layout_width="30dp"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/textColor"
+            android:textAlignment="textEnd"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/Calc_Score"
+            android:layout_height="match_parent"
+            android:layout_width="10dp"
+            android:text="@string/calculate_button_prompt"
+            android:textColor="@color/textColor"
+            />
+
+    </TableRow>
+
+</TableLayout>

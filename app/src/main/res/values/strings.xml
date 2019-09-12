@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Army Recruiter</string>
+    <string name="gender_prompt">Gender:</string>
+    <string name="age_prompt">Age:</string>
+    <string name="push_ups_prompt">Push Ups:</string>
+    <string name="sit_ups_prompt">Sit Ups:</string>
+    <string name="_2_mile_run_prompt">2 Mile Run:</string>
+    <string name="pass_fail_prompt">Pass/Fail:</string>
+    <string name="calculate_button_prompt">Score</string>
+    <string name="information_textview">Information:</string>
+    <string name="zip_code_prompt">Enter Zip Code:</string>
+    <string name="find_recruiter_button">Find Recruiter</string>
+    <string name="raw_scores">Raw Scores</string>
+    <string-array name="gender_array">
+        <item>Select your Gender.</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="age_groups">
+        <item>Select your Age Range.</item>
+        <item>17-21</item>
+        <item>22-26</item>
+        <item>27-31</item>
+        <item>32-36</item>
+        <item>37-41</item>
+        <item>42-46</item>
+        <item>47-51</item>
+        <item>52-56</item>
+        <item>57-61</item>
+        <item>62+</item>
+    </string-array>
+</resources>
